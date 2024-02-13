@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // num=1;
+      // n=5;
+      // for(i=1;i<n;i++){
+      //     str="";
+      //     for(j=1;j<n-1;j++){
+      //         if(i==j){
+      //             str += "* "
+      //         }
+      //         str = str + num +" ";
+      //         num++;
+      //     }
+      //     console.log(str);
+      // }
+
+      n = 10;
+      for (let i = 1; i <= n; i++) {
+        str = "";
+        for (let j = 1; j <= n - i; j++) {
+          str += " ";
+        }
+        for (let j = 1; j <= i; j++) {
+          str += "* ";
+        }
+        console.log(str);
+      }
+      for(let a=n;a>=1;a--){
+        str1 = '';
+        for(let j=n;j>=a;j--){
+          str1 = str1 + " ";
+        }
+        for(let k=1;k<a;k++){
+          str1=str1 + "* ";
+        }
+        console.log(str1);
+      }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //   for (i = n - 1; i >= 1; i--) {
+    //     s = "";
+    //     for (k = i; k <= n - i; k++) {
+    //       s += " ";
+    //     }
+    //     for (j = 1; j < i; j++) {
+    //       s += "*  ";
+    //     }
+
+    //     for (let l = 1; l < i; l++) {
+    //       s += "* ";
+    //     }
+    //     console.log(s);
+    //   }
+
+      // var a = ['cabcbbd', "eataele", "oatetoloxo"];
+      // for(i=0;i<a.length;i++){
+      //     str1 = a[i];
+      //     for(j=0;j<str1.length;j++){
+
+      //     }
+      // }
+
+      // a = 4;
+      // for(i=1;i<=a;i++){
+      //     str='';
+      //     for(j=1;j<i;j++){
+      //         str += String.fromCharCode(64+j)+" ";
+      //     }
+      //     console.log(str);
+      // }
+
+      // var a = [["ABCD", 'Abc', "CCC"], ["OOad", "OOAd", "OK"]];
+      // for(i=0;i<=a.length;i++){
+      //     max=0;
+      //     str = a[i];
+      //     var str2;
+      //     for(j=0;j<str.length;j++){
+      //         str1 = str[j];
+      //         c=0;
+      //         for(k=0;k<str1.length;k++){
+      //             if(str1[k]==str1[k].toUpperCase()){
+      //                 c++;
+      //             }
+      //         }
+      //         if(c>max){
+      //             max=c;
+      //             str2 = str1;
+      //         }
+      //     }
+      //     console.log(str2);
+      // }
+
+      // var a='sachins';
+      // c=0;
+      // for(i=1;i<a.length;i++){
+      //     str='';
+      //     for(j=1;j<=i;j++){
+      //         if(a[c]!=undefined){
+      //             str += a[c]+" ";
+      //             c++;
+      //         }
+      //     }
+      //     console.log(str);
+      // }
+
+      // for(i=1;i<=4;i++){
+      //     s='';
+      //     for(k=1;k<=4-i;k++){
+      //         s += " ";
+      //     }
+      //     for(j=1;j<=i;j++)
+      //     {
+      //         s += "*";
+      //     }
+      //     console.log(s);
+      // }
+
+      //         p=2;
+      // for(i=1;i<=3;i++){
+      //   c=0, s='';
+      //   while(true){
+      //     count=1;
+      //     for(j=2;j<p;j++){
+      //       if(p%j==0){
+      //         count++;
+      //       }
+      //     }
+      //     p++;
+      //      if(count==1){
+      //         s=s+j+' ';
+      //         c++;
+      //       }
+      //     if(c==i){
+      //       console.log(s);
+      //       break;
+      //     }
+      //   }
+      // }
+    </script>
+  </body>
+</html>
