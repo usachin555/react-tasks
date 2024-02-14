@@ -7,41 +7,75 @@
   </head>
   <body>
     <script>
+      var str4="";
+      var a = ['cacaaacs', "abbss", 'dddgsg'];
+      for(i=0;i<a.length;i++){
+        str1 = a[i];
+        str2 = '';
+        str3 = ''
+        for(j=0;j<str1.length;j++){
+          if(!str2.includes(str1[j])){
+            str2 = str2 + str1[j];
+          }
+        }
+        var max=0,str3='';
+        for(let i=0;i<str2.length;i++){
+          c=0;
+          for(let j=0;j<str1.length;j++){
+            if(str2[i]==str1[j]){
+              c++;
+            }
+          }
+          if(c>max){
+            max=c;
+            str3 = str2[i];
+          }
+        }
+        str4+=str3;
+      }
+      console.log(str4);
+
+
       // num=1;
       // n=5;
       // for(i=1;i<n;i++){
       //     str="";
-      //     for(j=1;j<n-1;j++){
+      //     for(j=1;j<n;j++){
       //         if(i==j){
       //             str += "* "
       //         }
-      //         str = str + num +" ";
-      //         num++;
+      //         else{
+      //           str += num + " ";
+      //           num++;
+      //         }
       //     }
       //     console.log(str);
       // }
 
-      n = 10;
-      for (let i = 1; i <= n; i++) {
-        str = "";
-        for (let j = 1; j <= n - i; j++) {
-          str += " ";
-        }
-        for (let j = 1; j <= i; j++) {
-          str += "* ";
-        }
-        console.log(str);
-      }
-      for(let a=n;a>=1;a--){
-        str1 = '';
-        for(let j=n;j>=a;j--){
-          str1 = str1 + " ";
-        }
-        for(let k=1;k<a;k++){
-          str1=str1 + "* ";
-        }
-        console.log(str1);
-      }
+    //   n = 5;
+    //   for (let i = 1; i <n; i++) {
+    //     str = "";
+    //     for (let j = 1; j < n - i; j++) {
+    //       str += " ";
+    //     }
+    //     for (let j = 1; j <= i; j++) {
+    //       str += "* ";
+    //     }
+    //     console.log(str);
+    //   }
+    //   for(let a=n-1; a>=1;a--){
+    //     str ='';
+    //    for(b=n;b>a;b--){
+    //     str += ' ';
+
+    //    }
+    //     for(let c=1;c<a;c++){
+    //       str += '* ';
+    //     }
+    //     console.log(str);
+    // }
+
+        
 
     
 

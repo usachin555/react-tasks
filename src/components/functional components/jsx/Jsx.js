@@ -70,15 +70,17 @@ const Profile = ()=>{
     const {name, address}=profileInformation
     return(
         <div>
+          <h2>productData</h2>
         <table>
-             {/* <tr>
-                 <th>id</th>
-                <th>title</th>
-                <th>price</th>
-                <th>desc</th>
-                <th>image</th>
-               <th>category</th>
-            </tr> */
+          <tr>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>DESC</th>
+            <th>IMAGE</th>
+            <th>CATEGORY</th>
+            <th>PRICEg</th>
+          </tr>
+             {
             products.map((eachItem)=>{
                 return (
                     <tr>
