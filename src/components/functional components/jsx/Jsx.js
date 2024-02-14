@@ -99,3 +99,58 @@ const Profile = ()=>{
     )
 }
 export default Profile
+
+export function RulesOfJsx(){
+  return(
+    <div>
+<h1>hi sachin</h1>
+ <h1>hii</h1>
+    </div>
+  )
+}
+
+export function Formss(){
+  return(
+      <form>
+        <label htmlFor="username" className="lab">username</label>
+        <input type="text" className="username" id="username"></input>
+          <br></br>
+          <br></br>
+        <label htmlFor="pw" className="pw">passWord</label>
+        <input type="text" className="pw" id="pw"></input>
+        <br></br>
+          <br></br>
+        <input type="submit" ></input>
+      </form>
+  )
+}
+
+export function Pic(){
+  return(
+    <div>
+<img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" height={100} width={100} alt="funya"/>
+    </div>
+  )
+}
+
+export function Lisst(){
+  return(
+    <div>
+      <ul> 
+        <li>sachin</li>
+      <li>sachin</li>
+      <li>sachin</li>
+      <li>sachin</li>
+      <li>sachin</li>
+      </ul>
+
+      <ol> 
+      <li>sachin</li>
+      <li>sachin</li>
+      <li>sachin</li>
+      <li>sachin</li>
+      <li>sachin</li>
+      </ol>
+    </div>
+  )
+}
