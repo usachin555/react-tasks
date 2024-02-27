@@ -1,3 +1,4 @@
+import Items from "./components/classComponents/axios/items";
 import Empinfo from "./components/classComponents/designation/tabledesignation";
 import Products from "./components/classComponents/products/products";
 import YoutubeButton from "./components/classComponents/youtubeButton/youtubeButton";
@@ -9,8 +10,9 @@ import Table from "./components/functional components/table";
 function App(){
   return(
     <div>
-<ProductsApi></ProductsApi>
-    </div>
+{/* <ProductsApi></ProductsApi> */}
+<Items></Items>
+   </div>
       )
 }
 export default App;
