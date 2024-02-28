@@ -267,6 +267,7 @@ class Products extends Component {
 }
 export default Products;
 
+
 class ProductListing extends Component {
   render() {
     return (

@@ -1,3 +1,4 @@
+import Circle from "./components/classComponents/circles/circle";
 import Empinfo from "./components/classComponents/designation/tabledesignation";
 import Products from "./components/classComponents/products/products";
 import YoutubeButton from "./components/classComponents/youtubeButton/youtubeButton";
@@ -8,9 +9,10 @@ import Table from "./components/functional components/table";
 function App(){
   return(
     <div>
-<Empinfo></Empinfo>
-<YoutubeButton></YoutubeButton>
-<Products></Products>
+{/* <Empinfo></Empinfo> */}
+{/* <YoutubeButton></YoutubeButton> */}
+{/* <Products></Products> */}
+<Circle></Circle>
     </div>
       )
 }
