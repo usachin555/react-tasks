@@ -5,8 +5,6 @@ import ProfileScreen from "../pages/profile-screen"
 import AboutScreen from "../pages/about-screen"
 import InvalidScreen from "../pages/invalid-screen"
 
-
-
  const NavigationStack = ()=>{
     return(
         <BrowserRouter>
