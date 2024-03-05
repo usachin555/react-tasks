@@ -92,6 +92,25 @@ const Controolled = () => {
 //   console.log("sachin")
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (
+      usernameError ||
+      emailError ||
+      genderError ||
+      passwordError ||
+      confirmPasswordError ||
+      mobileNumberError
+    ) {
+      // If any error exists, do not submit the form
+      setUserName("");
+      setEmail("");
+      setMobileNumber("")
+      setConfirmPassword("");
+      setPassword("");
+      setGender("");
+      alert("Please fill in the form correctly before submitting.");
+
+      return;
+    }
       const obj = {
         username: username,
         email: email,
@@ -102,6 +121,15 @@ const Controolled = () => {
       array.push(obj);
       localStorage.setItem("users", JSON.stringify(array));
       console.log(array);
+
+      setUserName("");
+      setEmail("");
+      setMobileNumber("")
+      setConfirmPassword("");
+      setPassword("");
+      setGender("");
+
+      alert("registration successful");
     }
 
   return (
