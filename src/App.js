@@ -1,13 +1,22 @@
+import { BrowserRouter } from "react-router-dom"
+import Loginn from "./components/functional components/form/registrationForm/login"
+import Controolled from "./components/functional components/form/registrationForm/registration"
+// import UseEffectEx3 from "./components/functional components/hooks/useEffect/useEffectEx3"
 import WidthEx from "./components/functional components/hooks/useEffect/useEffectEx6"
 import Resource from "./components/functional components/hooks/useEffect/useeffectEx1"
 import Image from "./components/functional components/image"
 import Profile, { Formss, Imggg, Lisst, Pic, RulesOfJsx } from "./components/functional components/jsx/Jsx"
 import Table from "./components/functional components/table"
+import PostRoute from "./components/navigation/postRoutes"
+import HomeScreen from "./pages/home-screen"
+// import NavigationStack from "./navigation/navigation" 
 
 function App(){
   return(
     <div>
-<WidthEx></WidthEx>
+      <BrowserRouter>
+      <PostRoute></PostRoute>
+      </BrowserRouter>
     </div>
       )
 }
