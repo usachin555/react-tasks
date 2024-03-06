@@ -9,6 +9,7 @@ import Profile, { Formss, Imggg, Lisst, Pic, RulesOfJsx } from "./components/fun
 import Table from "./components/functional components/table"
 import PostRoute from "./components/navigation/postRoutes"
 import HomeScreen from "./pages/home-screen"
+import Header from "./components/header/navbar"
 // import NavigationStack from "./navigation/navigation" 
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
       <BrowserRouter>
       <PostRoute></PostRoute>
       </BrowserRouter>
+      {/* <Header></Header> */}
     </div>
       )
 }
