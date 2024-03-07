@@ -10,15 +10,19 @@ import Table from "./components/functional components/table"
 import PostRoute from "./components/navigation/postRoutes"
 import HomeScreen from "./pages/home-screen"
 import Header from "./components/header/navbar"
+import NavigationStack from "./components/navigation/navigation"
 // import NavigationStack from "./navigation/navigation" 
 
 function App(){
   return(
     <div>
-      <BrowserRouter>
+      <NavigationStack></NavigationStack>
+
+
+      {/* <BrowserRouter>
       <PostRoute></PostRoute>
       </BrowserRouter>
-      {/* <Header></Header> */}
+      <Header></Header> */}
     </div>
       )
 }

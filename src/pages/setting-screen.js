@@ -1,15 +1,18 @@
-import NavBar from "../components/header/navbar"
+import { useContext } from "react"
 import Header from "../components/header/navbar"
+import { UserDetails } from "../components/navigation/navigation"
 
 
 
 
 const SettingScreen=()=>{
-    <Header/>
+    const userInfo = useContext(UserDetails)
+
+
     return(
         <>
-        <NavBar/>
-        <h2>settingScreen</h2>
+    <Header/>
+        <h2>settingScreen {userInfo.username}</h2>
         </>
     )
 }

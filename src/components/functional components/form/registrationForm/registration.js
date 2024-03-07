@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 var array = [];
-const Controolled = () => {
+const Registration = () => {
   const [username, setUserName] = useState("");
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
@@ -280,4 +280,4 @@ const Controolled = () => {
   );
 };
 
-export default Controolled;
+export default Registration;
