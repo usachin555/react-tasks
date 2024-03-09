@@ -1,18 +1,20 @@
 import { useContext } from "react"
 import Header from "../components/header/navbar"
 import { UserDetails } from "../components/navigation/navigation"
+import Todos from "../components/functional components/hooks/useReducer/useReducerTodo/todo"
 
 
 
 
 const SettingScreen=()=>{
-    const userInfo = useContext(UserDetails)
+    const globalInfo = useContext(UserDetails)
 
 
     return(
         <>
     <Header/>
-        <h2>settingScreen {userInfo.username}</h2>
+        {/* <h2>settingScreen {globalInfo.username}</h2> */}
+        <Todos></Todos>
         </>
     )
 }
