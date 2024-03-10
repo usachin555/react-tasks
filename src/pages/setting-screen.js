@@ -7,6 +7,8 @@ import Todos from "../components/functional components/hooks/useReducer/useReduc
 import UseMemoEx from "../components/functional components/hooks/useMemo/useMemo"
 import ParentMemo from "../components/functional components/memo/parent"
 import ProfileExample from "../components/functional components/hooks/useCallback/profilee"
+import SignIn from "../components/functional components/hooks/useStateEX/useStateEx1/SignIn"
+import Form from "../components/functional components/hooks/useStateEX/formEx"
 
 
 
@@ -22,7 +24,9 @@ const SettingScreen=()=>{
         {/* <Todos></Todos> */}
         {/* <UseMemoEx></UseMemoEx> */}
         {/* <ParentMemo></ParentMemo> */}
-        <ProfileExample></ProfileExample>
+        {/* <ProfileExample></ProfileExample> */}
+        {/* <SignIn></SignIn> */}
+        <Form></Form>
         </>
     )
 }
