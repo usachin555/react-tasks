@@ -13,7 +13,8 @@ const ProfileScreen=()=>{
         <NavBar></NavBar>
         <h2>ProfileScreen</h2>
         {/* <UseReducer></UseReducer> */}
-        <UseReduccer></UseReduccer>
+        {/* <UseReduccer></UseReduccer> */}
+        
         </>
     )
 }

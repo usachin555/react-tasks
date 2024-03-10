@@ -25,7 +25,7 @@ const UseReduccer = ()=>{
    return(
     <>
         <h1>{currentState.salary}</h1>
-        <h1>{currentState.name}</h1>
+    <h1>{currentState.name}</h1>
 
         <button onClick={()=>{dispatch({type:"salary_increment_by_100"})}}>salary increment by 100</button>
         <button onClick={()=>{dispatch({type:"salary_decrement_by_100"})}}>salary decrement by 100</button>    
