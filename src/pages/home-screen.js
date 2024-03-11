@@ -52,12 +52,15 @@ function CustomCard(props) {
         <Card.Text>
          {description}
         </Card.Text>
-       
-        <Button style={{backgroundColor:"black"}} color="black" >
+        
+       <div className="buton">
+       <Button style={{backgroundColor:"black"}} color="black" >
             <Link to={`/${category}/${id}`} style={{textDecoration:"none", color:"white"}}>
                 Navigate
             </Link>
             </Button>
+       </div>
+        
       </Card.Body>
     </Card>
   );

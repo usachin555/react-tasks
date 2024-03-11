@@ -4,6 +4,7 @@ import Header from "../components/header/navbar"
 import NavBar from "../components/header/navbar"
 import { UserDetails } from "../components/navigation/navigation"
 import Theme from "../components/functional components/hooks/useStateEX/useStateTheme"
+import Flip from "../components/functional components/hooks/useStateEX/cardFlip/cardFlip"
 
 const AboutScreen=()=>{
     let globalInfo=useContext(UserDetails)
@@ -19,7 +20,8 @@ const AboutScreen=()=>{
         <h3>I am from navigation.js, global info {globalInfo.username}</h3>
         <button onClick={changeName }>change name</button>
         <ComponentA></ComponentA> */}
-        <Theme></Theme>
+        {/* <Theme></Theme> */}
+        <Flip></Flip>
         </>
     )
 }

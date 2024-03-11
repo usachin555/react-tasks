@@ -1,5 +1,6 @@
 button{
     color: rgb(44, 46, 100);
+    
 }
 .obz{
     /* height: 500px; */
@@ -15,4 +16,9 @@ button{
 }
 Link{
     text-decoration: none;
+}
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
