@@ -1,10 +1,6 @@
 import { useEffect } from "react"
 
 
-
-
-
-
 const UseEffect5 =()=>{
 
       

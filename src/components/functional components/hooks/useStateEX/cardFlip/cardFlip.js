@@ -22,7 +22,6 @@ function Flip(){
                 <div className="cards card-back" onClick={flipCard}>
                     <h1>back</h1>
                 </div>
-
             </ReactCardFlip>
         </div>
     )

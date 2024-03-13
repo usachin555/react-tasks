@@ -8,14 +8,12 @@ import NavBar from "../components/header/navbar"
 
 const ProfileScreen=()=>{
    <Header/>
-    return(
+   return(
         <>
         <NavBar></NavBar>
         <h2>ProfileScreen</h2>
         {/* <UseReducer></UseReducer> */}
-        {/* <UseReduccer></UseReduccer> */}
-        
-        </>
+        {/* <UseReduccer></UseReduccer> */}</>
     )
 }
 export default ProfileScreen
